@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@1,700&family=Poppins:wght@500&family=Roboto:wght@100&display=swap');
+
 .App {
   text-align: center;
+}
+
+.default-font {
+  font-family: 'Libre Baskerville', serif;
 }
 
 .App-logo {
@@ -32,6 +38,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

@@ -17,7 +17,7 @@ const Header = () => {
     
 
     return (
-        <div className="navbar ">
+        <div className="navbar sticky top-0 dark:bg-black bg-white">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -53,7 +53,7 @@ const Header = () => {
                 <HiMoon/>
                 </button>
                 )}    
-                <a className="btn" >Try for free</a> 
+                <a className="btn btn-secondary" >Try for free</a> 
             </div>
             {/* <HiSun/> */}
             {/* <HiOutlineSun/> */}
