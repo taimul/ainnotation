@@ -70,7 +70,7 @@ const Services = () => {
             <div className='lg:grid lg:grid-cols-3 container mx-auto '>
                 {services.map(
                     ({ id, image, title, description }) => (
-                        <div key={id} className="shadow dark:border dark:text-white rounded-xl m-5 " data-aos="fade-left" data-aos-easing="ease-in-cubic">
+                        <div key={id} className="shadow dark:border dark:text-white rounded-xl m-5 " data-aos="fade-center" data-aos-easing="ease-in-cubic">
                             <figure className="lg:px-5 lg:pt-5">
                                 <img src={image} alt="Shoes" className="rounded-xl h-[320px] w-full" />
                             </figure>
