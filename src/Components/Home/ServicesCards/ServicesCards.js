@@ -57,8 +57,8 @@ const ServicesCards = () => {
                 {serviceCards.map(
                     ({ id, image, title, description }) => (
                         <div key={id} className="shadow dark:border rounded-xl m-5 card-design">
-                            <figure className="lg:px-10 lg:pt-10">
-                                <img src={image} alt="Shoes" className="rounded-xl h-[320px] lg:w-full" />
+                            <figure className="lg:px-5 lg:pt-5">
+                                <img src={image} alt="Shoes" className="rounded-xl h-[320px] w-full" />
                             </figure>
                             <div className="card-body items-center text-center">
                                 <h2 className="card-title">{title}</h2>
