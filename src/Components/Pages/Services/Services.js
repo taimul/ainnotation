@@ -60,7 +60,7 @@ const Services = () => {
                 {/* <h1 className='lg:text-[48px] text-[24px] default-font lg:mb-14 p-10 dark:text-white'>OUR VIDEO ANNOTATION SERVICES</h1> */}
                 <h2 className="mb-4 mt-14 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Our Video Annotation Services</h2>
             </div>
-            <div className='lg:grid lg:grid-cols-3 container mx-auto'>
+            <div className='lg:grid lg:grid-cols-3 container mx-auto dark:text-white'>
                 {services.map(
                     ({ id, image, title, description }) => (
                         <div key={id} className="shadow dark:border rounded-xl m-5 card-design">
