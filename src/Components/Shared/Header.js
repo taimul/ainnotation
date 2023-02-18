@@ -1,20 +1,20 @@
 import { useTheme } from 'next-themes';
-import React, { useEffect, useState }  from 'react';
+import React, { useEffect, useState } from 'react';
 import { HiSun, HiMoon } from "react-icons/hi";
 
 
 const Header = () => {
-   
- const {theme,systemTheme,setTheme} = useTheme();
 
- const [mounted, setMounted] = useState(false);
+    const { theme, systemTheme, setTheme } = useTheme();
 
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+    const [mounted, setMounted] = useState(false);
 
- const currentTheme = theme === "system" ? systemTheme : theme;
-    
+    useEffect(() => {
+        setMounted(true);
+    }, []);
+
+    const currentTheme = theme === "system" ? systemTheme : theme;
+
 
     return (
         <div className="navbar sticky top-0 dark:bg-black bg-white">
@@ -25,8 +25,9 @@ const Header = () => {
                     </label>
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         <li><a>Home</a></li>
-
-                        <li><a>Products</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Pricing</a></li>
+                        <li><a>Contact US</a></li>
                     </ul>
                 </div>
                 <a className="btn btn-ghost normal-case text-xl">Ainnotation</a>
@@ -34,26 +35,27 @@ const Header = () => {
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     <li><a>Home</a></li>
-
-                    <li><a>Products</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Pricing</a></li>
+                    <li><a>Contact US</a></li>
                 </ul>
             </div>
-            <div className="navbar-end"> 
-            {currentTheme === "dark" ? (
-            <button className='text-3xl'
-            onClick={() => setTheme('light')}
-            >
-                {''}
-                    <HiSun/>
-                </button>
+            <div className="navbar-end">
+                {currentTheme === "dark" ? (
+                    <button className='text-3xl'
+                        onClick={() => setTheme('light')}
+                    >
+                        {''}
+                        <HiSun />
+                    </button>
                 ) : (
-                <button className='text-3xl' 
-                onClick={() => setTheme('dark')}
-                >
-                <HiMoon/>
-                </button>
-                )}    
-                <a className="btn btn-secondary" >Try for free</a> 
+                    <button className='text-3xl'
+                        onClick={() => setTheme('dark')}
+                    >
+                        <HiMoon />
+                    </button>
+                )}
+                <a className="btn btn-secondary" >Try for free</a>
             </div>
             {/* <HiSun/> */}
             {/* <HiOutlineSun/> */}

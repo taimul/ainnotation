@@ -5,7 +5,7 @@ import Header from '../Components/Shared/Header';
 
 const Main = () => {
     return (
-        <div className='dark:bg-black bg-white container mx-auto'>
+        <div className='dark:bg-black bg-white'>
             <Header/>
             <Outlet/>
             <Footer/>
