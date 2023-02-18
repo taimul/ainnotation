@@ -2,7 +2,7 @@ import React from 'react';
 
 const TypeService = () => {
     return (
-        <div className='text-center p-10'>
+        <div className='text-center p-10 dark:text-white'>
             <div>
                 <h1 className='lg:text-[48px] text-[24px] default-font lg:mb-14 mb-7'>WHAT ARE THE TYPES OF VIDEO ANNOTATION SERVICES?</h1>
             </div>

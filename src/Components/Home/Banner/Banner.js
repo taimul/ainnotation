@@ -3,7 +3,7 @@ import Type from '../Type';
 
 const Banner = () => {
     return (
-        <div className='text-area p-6'>
+        <div className='text-area p-6 dark:text-white'>
             <div className="lg:grid lg:grid-cols-2 gap-10">
                 <div className='grid'>
                     <div className='lg:mt-32'>
@@ -17,7 +17,7 @@ const Banner = () => {
                         </div>
                        <div className='flex justify-items-center mb-5'>
                        <input type="checkbox" defaultChecked className="checkbox checkbox-primary" />
-                        <span className="label-text mt-1 mx-3">No payments require</span>
+                        <span className="label-text mt-1 mx-3 dark:text-white">No payments require</span>
                        </div>
                     </div>
                 </div>

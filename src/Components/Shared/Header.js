@@ -44,14 +44,14 @@ const Header = () => {
             </div>
             <div className="navbar-end">
                 {currentTheme === "dark" ? (
-                    <button className='text-3xl'
+                    <button className='text-3xl lg:mx-5 mx-2'
                         onClick={() => setTheme('light')}
                     >
                         {''}
                         <HiSun />
                     </button>
                 ) : (
-                    <button className='text-3xl'
+                    <button className='text-3xl lg:mx-5 mx-2'
                         onClick={() => setTheme('dark')}
                     >
                         <HiMoon />
@@ -59,8 +59,7 @@ const Header = () => {
                 )}
                 <a className="btn btn-secondary" >Try for free</a>
             </div>
-            {/* <HiSun/> */}
-            {/* <HiOutlineSun/> */}
+            
         </div>
     );
 };

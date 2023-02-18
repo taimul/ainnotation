@@ -3,23 +3,23 @@ import React from 'react';
 const OurCustomers = () => {
     return (
         <div>
-            <div>
+            <div className='dark:text-white'>
                 <h1 className='lg:text-[48px] text-[24px] default-font lg:mb-14 m-7 text-center'>Why our customers Likes Us?</h1>
             </div>
-            <div className='lg:grid lg:grid-cols-3 container mx-auto'>
+            <div className='lg:grid lg:grid-cols-3 container mx-auto dark:text-white'>
                 <div className='p-4'>
                     <h1 className='text-[#16a34a] text-5xl'>6</h1>
-                    <h2 className='font-bold text-2xl uppercase'>Years</h2>
+                    <h2 className='font-bold text-2xl uppercase mb-5'>Years</h2>
                     <p>Supervisely provides first-rate experience since 2017, longer than most of computer vision platforms over there.</p>
                 </div>
                 <div className='p-4'>
                     <h1 className='text-[#FFA915] text-5xl'>65,000+</h1>
-                    <h2 className='font-bold text-2xl uppercase'>Users</h2>
+                    <h2 className='font-bold text-2xl uppercase mb-5'>Users</h2>
                     <p>Join community of thousands computer vision enthusiasts and companies of every size that use Supervisely every day.</p>
                 </div>
                 <div className='p-4'>
                     <h1 className='text-[#4C61E6] text-5xl'>100,000+</h1>
-                    <h2 className='font-bold text-2xl uppercase'>Labels</h2>
+                    <h2 className='font-bold text-2xl uppercase mb-5'>Labels</h2>
                     <p>Our online version has over a 220 million of images and over a billion of labels created by our great community.</p>
                 </div>
 

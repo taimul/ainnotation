@@ -49,7 +49,7 @@ const serviceCards = [
 const ServicesCards = () => {
 
     return (
-        <div className='lg:container mx-auto'>
+        <div className='lg:container mx-auto dark:text-white'>
             <div className='text-center'>
                 <h1 className='lg:text-[48px] text-[24px] default-font lg:mb-14 p-10 '>WHAT INDUSTRIES NEED VIDEO ANNOTATION SERVICES ?</h1>
             </div>
