@@ -11,7 +11,6 @@ const Banner = () => {
                        <div className="lg:text-5xl text-2xl default-font font-bold ">
                        <Type/>
                        </div>
-                        {/* <h1 className="lg:text-5xl text-3xl default-font font-bold ">An AI <span className='text-[#8382EB]'>Annotation</span> Service</h1> */}
                         <p className="py-6 hero-text mb-3">Develop AI faster and better with on-premise, enterprise-grade end-to-end solution for every task from labeling to building production models.</p>
                         <div>
                             <button className='btn btn-secondary mb-3'> Try for free</button>
